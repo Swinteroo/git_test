@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>What The Blooey</title>
+    </head>
+
+    <body>
+        <h1>The Odin Project</h1>
+        <h4>Everything I Learned From the Fundamentals Lesson</h4>
+
+        <br>
+
+        <h4>Word Styles</h4>
+        <p><strong>p</strong> - paragraph</p>
+        <p><strong>strong</strong> - bold</p>
+        <p><strong>em</strong> - italic</p>
+        <br>
+        <p>You're telling me a <strong>shrimp</strong> fried this rice?</p>
+        <p>What the <em>hell</em> are you talking about?</p>
+
+        <br>
+
+        <h4>A Sample Paragraph</h4>
+        <p>Visual Studio Code has a shortcut where you can type 'lorem' and press tab to produce a whole bunch of sample text.</p>
+        <p><em>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, rerum ipsum! Ut soluta adipisci fugiat earum et. Ratione aut assumenda ut minus, quaerat eum delectus aliquid neque voluptate reiciendis saepe?"</em></p>
+      
+        <br>
+
+        <h4>Unordered List</h4>
+        <p><strong>ul</strong> - bullet point list</p>
+        <p><strong>ol</strong> - umbered list</p>
+        <p><strong>li</strong> - list item</p>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ol>
+
+        <br>
+
+        <h4>Links</h4>
+        <p><strong>a</strong> - anchor, a link to a different piece of media</p>
+        <p><strong>href</strong> - [ATTRIBUTE] hypertext reference whose value is the link we're directed to</p>
+        <p><em>a href="[INSERT LINK HERE]"</em></p>
+        <p><strong>target</strong> - [ATTRIBUTE] determines whether a new tab will be opened or not. If not, will default to opening in the same tab. Make value "_blank" to open a new tab</p>
+        <p><em>target="_blank"</em></p>
+        <p><strong>rel</strong> - [ATTRIBUTE] describes the relation between the current page and the linked document. "noopener" prevents the opened link from getting access to the original webpage. "noreferrer" prevents the opened link from knowing which webpage has a link to it, includes the noopener behavior so can be used on its own. These are simply for security (e.g. phishing attacks)</p>
+        <p><em>rel="noopener noreferrer"</em></p>
+        <br>
+        <p><em>a href="[INSERT LINK HERE]" target="_blank" rel="noopener noreferrer"</em></p>
+        <br>
+        <p><strong>Absolute links</strong> - links to pages on other external websites</p>
+        <p><strong>Relative links</strong> - links to pages within our own website</p>
+        <p>When it comes to relative links, a file name is enough. But if the file you want to link to is in a folder/directory within your main folder/directory, you need to write "./[FOLDER]/[FILENAME].[FORMAT]" The number of periods at the start determine how many steps you need to take to reach from the current folder to the folder you want. (e.g. a folder within a folder needs two ../)</p>
+        <br>
+        <p><em>a href="./pages/about.html"</em></p>
+        <br>
+        <a href="https://www.theodinproject.com/lessons/foundations-links-and-images">An ABSOLUTE link that opens in the same tab</a>
+        <br>
+        <a href="https://www.theodinproject.com/lessons/foundations-links-and-images" target="_blank" rel="noopener noreferrer">An ABSOLUTE link that opens a new tab</a>
+        <br>
+        <a href="./samplepage.html" target="_blank" rel="noopener noreferrer">A RELATIVE link that opens a page in the same folder</a>
+        <br>
+        <a href="./pages/lists.html" target="_blank" rel="noopener noreferrer">A RELATIVE link that opens a page in a sub folder</a>
+
+        <br>
+        <br>
+
+        <h4>Images</h4>
+        <p><strong>img</strong> - displays images</p>
+        <p><strong>src</strong> - [ATTRIBUTE] tells the browser where the image file is located, uses absolute and relative paths too</p>
+        <p><strong>alt</strong> - [ATTRIBUTE] alternative text</p>
+        <p><strong>width/height</strong> - [ATTRIBUTE] determines width and height of image, it's a good habit to still specify even if the size is correct/you're using CSS for it</p>
+        <br>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwyXeKDN29AmZgZPLS7n0Bepe8QmVappBwZCeA3XWEbWNdiDFB" alt="A white dog raising its paw to its face with a scrunched expression" height="300" width="300">
+
+    </body>
+
+<!-- This is a comment! The shortcut to use it is ctrl + / -->
+
+</html>
