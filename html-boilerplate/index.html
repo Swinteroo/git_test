@@ -3,11 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <title>What The Blooey</title>
+        <link rel="stylesheet" href="styles.css">
+
     </head>
 
     <body>
         <h1>The Odin Project</h1>
-        <h4>Everything I Learned From the Fundamentals Lesson</h4>
+        <h4 id="subtitle">Everything I Learned From the Fundamentals Lesson</h4>
 
         <br>
 
@@ -105,6 +107,22 @@
         <li>Just type git commit without the -m to open up a new window and be able to type multiple lines</li>
         <li>Commit wheneer there's a meaningful change in code</li>
        </ul>
+
+       <br>
+
+       <h4>Introduction to CSS</h4>
+       <ul>
+         <li><strong>*</strong> - universal selector, selects every element</li>
+         <li><strong>Type selector</strong> - selects all elements of the given element type</li>
+         <li><strong>Class selector</strong> - selects all elements with the given class (an attribute you place on an element class="[NAME]"), these selectors start with a period (.), multiple classes are separated by a space, multiple-worded names are separated by a hyphen</li>
+         <li><strong>ID selector</strong> - like a class selector but can only be used once per page and cannot have any spaces, these selectors start with a #, use sparingly</li>
+         <li><strong>Grouping selectors</strong> - for when multiple classes share some similar declarations and some unique ones, the similar ones can be grouped in a comma-separated list and the unique declarations can be specified individually</li>
+         <li><strong>Chaining selectors</strong> - for when a single element has two classes and you want to give a unique declaration for that specific one, type the classes as a period-separated list, can also do this with IDs if you use a # as a separator</li>
+         <li><strong>Descendant combinator</strong> - for when you want to select a specific class within a specific class</li>
+         <li>Create any .css file, usually named "style" or "styles"</li>
+         <li>OR embed internal CSS in the HTML file itself in style tags in the head tag of the file, good for adding unique styles to a single page</li>
+         <li>OR embed inline CSS with the HTML element itself, but it's not recommended (e.g. style="color: white; background-color: black;")</li>
+      </ul>
 
     </body>
 

@@ -1,0 +1,14 @@
+* {
+    color: #38211d;
+    background-color: #fedcd5;
+    font-family: "Montserrat", "Times New Roman", serif;
+    font-size: 18px;
+   }
+
+h1 {
+    text-align: center;
+   }
+
+#subtitle {
+    text-align: center;
+   }
